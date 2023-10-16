@@ -1,0 +1,44 @@
+.create-category {
+    padding: 2rem 0;
+    width: 100%;
+    height: 100%;
+
+}
+
+.create-category-center {
+    width: 60%;
+    margin: auto;
+}
+
+.create-category-center form {
+    padding: 1rem 0;
+    width: 100%;
+
+}
+
+.create-category-center form input {
+    width: 100%;
+    padding: 1rem;
+    border: none;
+    background: rgba(110, 110, 252, 0.115);
+    outline: none;
+    font-size: 1rem;
+}
+
+.create-category-btn {
+    width: 100%;
+    margin: 1.5rem 0px;
+    padding: .6rem;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--light-white);
+    background: var(--primary-color);
+    transition: .5s;
+    cursor: pointer;
+}
+
+.create-category-btn:hover {
+    background: var(--hover-color);
+}

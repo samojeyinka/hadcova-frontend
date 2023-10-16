@@ -1,0 +1,38 @@
+.floating-plus-btn {
+    position: fixed;
+    bottom: 10%;
+    right: 10%;
+    z-index: 5;
+}
+
+.add-task-btn {
+    width: 4rem;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--primary-color);
+    border: none;
+    border-radius: var(--border-radius-50);
+    box-shadow: var(--box-shadow);
+    cursor: pointer;
+    transition: .5s;
+
+}
+
+.add-task-icon {
+    font-size: 3rem;
+    font-weight: 100;
+    color: var(--light-white);
+
+}
+
+.floating-plus-btn:hover {
+    transform: scale(1.1);
+    transition: .5s ease-in-out;
+}
+
+.add-task-btn:hover {
+    transform: rotate(90deg);
+
+}
